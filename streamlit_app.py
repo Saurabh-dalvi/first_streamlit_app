@@ -21,7 +21,7 @@ streamlit.dataframe(fruits_to_show)
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 streamlit.header("Fruityvice Fruit Advice!")
-streamlit.text(fruityvice_response.json()) #just write data to screen
+#streamlit.text(fruityvice_response.json()) #just write data to screen
 
 #take json version of the response and normalize it
 # write your own comment -what does the next line do? 
